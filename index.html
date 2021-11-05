@@ -1,0 +1,77 @@
+<!-- 日記をクイズ形式で残し、自分の傾向・目的に合った場所を知ることができる！
+・現在地取得（天気統計）
+●今日の気分は？（悪い０・いい１）→
+●今日の食べたものは？（和１中２洋３）→
+●今日話した人数は？（０〜５（１）・６〜１０（２）・１１〜５０（３））→
+●今日の出来事※メモpad使用
+   
+・気分のデータ
+・食べ物の系統
+・話した人数のデータ
+・出来事の単語文字認識してその人の系統をデータ収集
+
+・天気予報情報も取得
+●次の休みで行きたいところは？（海・山・川・街）※外限定
+●予算は？（1000〜3000 3000~5000・5000~1万以内）※ゲストハウスonly
+
+●近くで該当するところのオススメのハウスを表示 -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <h1>あるある日記</h1>
+
+  <p id="question_number">第 n 問</p>
+
+  <p id="question"></p>
+
+  <ul id="answers">
+    <!-- <li><button id="answer00">0</button></li>
+    <li><button id="answer01">1</button></li>
+    <li><button id="answer02">2</button></li> -->
+  </ul>
+
+  <p id="result"></p>
+  
+  <div id="text_area">
+    <textarea id ="text"></textarea>
+    <ul>
+      <li id="save">Save</li>
+      <li id="clear">Clear</li>
+    </ul>
+  </div>
+  <!-- 画面を分けて結果を表示させる！！ -->
+  
+  <ul id="output">今までの記録</ul>
+
+  <div id="guest_house">
+    <p>おすすめゲストハウス</p>
+    <a href="https://discovery-life.com/" class="btn03 pushright">我が家</a>
+    <img src="img/スクリーンショット 2021-11-02 0.17.57.png" alt="我が家">
+    
+    <a href="https://www.booking.com/index.ja.html?&aid=318615;label=New_Japanese_JA_JP_27025411585-y1rkZY2Bp9qC90Rg2T2p4wS102014253745:pl:ta:p1:p2:ac:ap:neg:fi:tiaud-297601666555:dsa-55482331735:lp1009717:li:dec:dm;ws=&gclid=CjwKCAjwoP6LBhBlEiwAvCcthPo8d7vtdzPs8O2KcHkjzocm7ISkXioIrTkPu1xUaudv2xRpmh_VMhoCYFQQAvD_BwE" class="btn03 pushright" alt="賑やか">あるあるbooking.com</a>
+  </div>
+    
+    
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+
+
+<script type ="module" src="./main.js"></script>
+
+</body>
+
+</html>

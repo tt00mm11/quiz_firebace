@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+main{
+  border-bottom:1px solid #ccc;
+  position:relative;
+}
+footer{
+  background-color: #fff;
+  border-bottom:1px solid #ccc;
+  text-align: center;
+}
+p{
+  font-size:200%;
+  text-align: center;
+  border-bottom:1px solid #fff;
+  height:50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+#save:hover{
+  background: #0066CC;
+  color:#fff;
+}
+#clear:hover{
+  background: #0066CC;
+  color:#fff;
+}
+
+input,textarea{
+  margin: 3%;
+  width: 95%;
+  font-size:80%;
+  box-shadow: 3px 3px 3px 3px #555;
+}
+input{
+  height: 30px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+}
+
+#result {
+  font-size: 2rem;
+}
+
+#text_area {
+  display: none;
+}
+
+#text_area.hyoji {
+  display: block;
+}
+
+#guest_house {
+ display: none;
+}
+
+#guest_house.spot_hyoji {
+  display: block;
+}
+
+img{
+  display: flex;
+  width: 400px;
+  height: auto;
+}
+
+#output {
+  font-size: 2rem;
+}
