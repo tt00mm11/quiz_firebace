@@ -30,12 +30,7 @@ import {
 
 ///////firebeseにあげるときは必ず消す！！！※悪用される可能性あり///////
 const firebaseConfig = { 
-  apiKey: "AIzaSyBkX6l18l5dgKX38Kx-AGZGkTr4Mi4NNpg",
-  authDomain: "firebace-20211104-08.firebaseapp.com",
-  projectId: "firebace-20211104-08",
-  storageBucket: "firebace-20211104-08.appspot.com",
-  messagingSenderId: "403383914429",
-  appId: "1:403383914429:web:bd6a7090464d83554f4cd4"
+ 
 };
 ////////////////////////////////////////////////////
 
