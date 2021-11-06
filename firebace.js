@@ -28,7 +28,7 @@ import {
   onSnapshot,
 } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-firestore.js";
 
-const firebaseConfig = {
+const firebaseConfig = { 
 };
 
 const app = initializeApp(firebaseConfig);
